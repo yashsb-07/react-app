@@ -4,6 +4,8 @@ import Button from "./Button.jsx";
 import ProductTab from "./ProductTab.jsx";
 // import MsgBox from "./MsgBox.jsx";
 import Form from "./Form.jsx"
+import Counter from "./Counter.jsx";
+import LikeButton from "./LikeButton.jsx";
 
 function Description() {
   return <h3>I am the Description</h3>;
@@ -23,6 +25,8 @@ function App() {
       <ProductTab/>
       <Button />
       <Form />
+      <Counter />
+      <LikeButton />
     </div>
 
   );
